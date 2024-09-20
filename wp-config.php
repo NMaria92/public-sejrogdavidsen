@@ -22,7 +22,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-if ($_SERVER['HTTP_HOST'] === 'grp4code-version2.local') {
+if ($_SERVER['HTTP_HOST'] === '//sejrogdavidseninternat.marianoergaard.dk') {
 	define('DB_NAME', 'local');
 
 	/** Database username */
