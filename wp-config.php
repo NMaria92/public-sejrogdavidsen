@@ -22,7 +22,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-if ($_SERVER['HTTP_HOST'] === '//marianoergaard.dk/sejrogdavidsen') {
+if ($_SERVER['HTTP_HOST'] === 'grp4code-version2.local') {
 	define('DB_NAME', 'local');
 
 	/** Database username */
@@ -34,16 +34,16 @@ if ($_SERVER['HTTP_HOST'] === '//marianoergaard.dk/sejrogdavidsen') {
 	/** Database hostname */
 	define('DB_HOST', 'localhost');
 } else {
-	define('DB_NAME', 'marianoergaard_dksejrogdavidsen');
+	define('DB_NAME', 'marianoergaard_dksejrogdavidseninternat');
 
 	/** Database username */
-	define('DB_USER', 'marianoergaard_dksejrogdavidsen');
+	define('DB_USER', 'marianoergaard_dksejrogdavidseninternat');
 
 	/** Database password */
-	define('DB_PASSWORD', 'Abc100SMM');
+	define('DB_PASSWORD', 'Hello123');
 
 	/** Database hostname */
-	define('DB_HOST', 'marianoergaard.dk.mysql:3306');
+	define('DB_HOST', 'marianoergaard.dk.mysql');
 }
 
 
